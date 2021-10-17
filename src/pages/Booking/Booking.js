@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Container, Form, Button, Row } from 'react-bootstrap';
+import { Container, Form, Button, Row, Placeholder } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import TransparentHeader from '../shared/Header/TransparentHeader';
 import './Booking.css';
@@ -29,8 +29,14 @@ const Booking = () => {
                     <div className="row gx-5 align-items-center">
                         <div className="col-md-6">
                             <div className="slider-body text-light">
-                                <h1>{name}</h1>
-                                <p>{description}</p>
+                                <h1>{name ? name : <Placeholder animation="glow">
+                                    <Placeholder xs={8} />
+                                </Placeholder>}</h1>
+                                <p>{description ? description : <Placeholder animation="glow">
+                                    <Placeholder xs={7} /> <Placeholder xs={4} /> <Placeholder xs={4} />{' '}
+                                    <Placeholder xs={7} /> <Placeholder xs={4} /> <Placeholder xs={4} />{' '}
+                                    <Placeholder xs={6} /> <Placeholder xs={8} />
+                                </Placeholder>}</p>
                             </div>
                         </div>
                         <div className="offset-md-1 col-md-5">

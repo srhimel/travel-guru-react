@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Placeholder } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Slide from './Slide/Slide';
 import './Slider.css';
@@ -67,9 +67,16 @@ const Slider = () => {
                     <div className="row align-items-center">
                         <div className="col-md-5">
                             <div className="slider-body text-light">
-                                <h1>{name}</h1>
-                                <p>{description}</p>
-                                <Link className="btn btn-warning fw-bold px-4" to={'/book/' + id}>Booking <BsArrowRight /></Link>
+                                <h1>{name ? name : <Placeholder animation="glow">
+                                    <Placeholder xs={8} />
+                                </Placeholder>}</h1>
+                                <p>{description ? description : <Placeholder animation="glow">
+                                    <Placeholder xs={7} /> <Placeholder xs={4} /> <Placeholder xs={4} />{' '}
+                                    <Placeholder xs={7} /> <Placeholder xs={4} /> <Placeholder xs={4} />{' '}
+                                    <Placeholder xs={6} /> <Placeholder xs={8} />
+                                </Placeholder>}</p>
+                                {!id ? <Placeholder.Button variant="warning" xs={4} /> : <Link className="btn btn-warning fw-bold px-4" to={'/book/' + id}>Booking <BsArrowRight /></Link>}
+
                             </div>
                         </div>
                         <div className="col-md-7">
