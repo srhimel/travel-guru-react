@@ -1,0 +1,26 @@
+.header-search input{
+    background: rgba(255,255,255,.2);
+    border-left: none;
+}
+.header-search input::placeholder{
+    color: #fff;
+
+}
+.header-search .input-group-text{
+    background: rgba(255,255,255,.2);
+    color: #fff;
+    font-size: 18px;
+    border-right: none;
+}
+.header-search input:focus{
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+}
+
+@media only screen and (max-width: 721px) {
+    .transparent-mobile{
+        background: #222 !important;
+    }
+    
+}

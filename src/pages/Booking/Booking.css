@@ -1,0 +1,11 @@
+.booking-form  input{
+    border: none;
+    background:  #F2F2F2;
+    padding: 12px 10px;
+    font-weight: 700;
+
+}
+.booking-form button{
+    padding: 13px !important;
+    margin-top: 10px;
+}

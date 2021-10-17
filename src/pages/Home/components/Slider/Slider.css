@@ -1,0 +1,11 @@
+@media only screen and (min-width: 1200px){
+    h1{
+        font-size: 98px;
+    }
+}
+@media only screen and (min-width: 1500px){
+    .slider-container{
+        padding-top: 350px !important;
+        padding-bottom: 173px !important;
+    }
+}

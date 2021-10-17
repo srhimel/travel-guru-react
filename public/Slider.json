@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "name": "Sreemangal",
+        "description": "It is said the destination Sreemangal (or Srimangal) is destinationd after Sri Das and Mangal Das; two brothers who settled on the banks of the Hail where tiger lives.",
+        "profileImg": "https://i.ibb.co/kmwFtyS/Sreemongol.jpg",
+        "coverImg": "https://i.ibb.co/G3J9vMd/sri.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Sundarbans",
+        "description": "The Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, Brahmaputra and Meghna Rivers in the Bay of Bengal. It spans from Dhaka to Khulna.",
+        "profileImg": "https://i.ibb.co/gDqVKL2/sundorbon.jpg",
+        "coverImg": "https://i.ibb.co/MSgP3mL/sun.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Cox's Bazar",
+        "description": "Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Bangladesh and India.",
+        "profileImg": "https://i.ibb.co/8sKs1cZ/Sajek.jpg",
+        "coverImg": "https://i.ibb.co/cFJsC5H/saj.jpg"
+    }
+]
